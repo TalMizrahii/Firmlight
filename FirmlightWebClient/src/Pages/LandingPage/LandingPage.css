@@ -1,0 +1,171 @@
+.LandingPage {
+    top: 0;
+    background: linear-gradient(90deg, rgba(64, 79, 134, 1) 0%, rgba(13, 26, 58, 1) 87%);
+    margin: 0;
+    font-family: var(--font-family);
+    padding: 0;
+    width: 100%;
+    height: 105%;
+}
+
+.LandingPage__header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 2rem;
+}
+
+.LandingPage__text-container {
+    top: 3rem;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.LogoImage {
+    width: 47%;
+    height: 40%;
+}
+
+.LandingPage__headline-container {
+    margin-left: 1.5%;
+    margin-top: 4%;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.LandingPage__headline-text {
+    font-weight: 100;
+}
+
+.LandingPage__headline-text-bold {
+    font-weight: 600;
+}
+
+.lamp-img {
+    width: 15%;
+    height: 100%;
+    bottom: 0;
+}
+
+.LandingPage__content-container {
+    margin-top: 4rem;
+    margin-left: 7%;
+}
+
+.LandingPage__content-button > button {
+    padding: 0.8rem 2.8rem;
+    font-family: var(--font-family);
+    font-weight: 550;
+    left: 1200px;
+    top: 55px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 17px;
+    outline: none;
+    cursor: pointer;
+    margin: 0.5rem;
+    color: #FFFFFF;
+}
+
+#login-btn {
+    padding: 0.9rem 52px;
+    background: #5141b0;
+    border-style: solid;
+    border-color: #6e5dd0;
+}
+
+#login-btn:hover {
+    background: #6e5dd0;
+}
+
+#signup-btn {
+    border-style: solid;
+    background: none;
+    border-color: #FFFFFF;
+}
+
+#signup-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .LandingPage__headline-container {
+        margin-left: 1.5%;
+        margin-top: 4%;
+        font-size: 40px;
+    }
+
+    .LandingPage__content-container {
+        margin-top: 5rem;
+        margin-left: 6rem;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .LandingPage__headline-container {
+        margin-left: 1.5%;
+        margin-top: 4%;
+        font-size: 35px;
+    }
+
+    .LandingPage__content-container {
+        margin-top: 3rem;
+        margin-left: 6rem;
+    }
+}
+
+@media screen and (max-width: 1200px) and (max-height: 650px) {
+    .LogoImage {
+        width: 60%;
+        height: 70%;
+    }
+
+    .LandingPage__headline-container {
+        margin-left: 1.5%;
+        margin-top: 4%;
+        font-size: 30px;
+    }
+
+    .LandingPage__content-container {
+        margin-top: 2rem;
+        margin-left: 6rem;
+    }
+
+    .LandingPage__content-button > button {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-weight: 550;
+        font-size: 10px;
+        line-height: 8px;
+        border-radius: 17px;
+        margin: 0.4rem;
+    }
+
+    #login-btn {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+
+@media screen and (max-width: 500px) and (max-height: 1000px) {
+    .LandingPage__headline-container {
+        margin-left: 1.5%;
+        margin-top: 10%;
+        font-size: 45px;
+    }
+
+    .LandingPage__content-container {
+        margin-top: 9rem;
+        margin-left: 6.6rem;
+    }
+
+    .LogoImage {
+        margin-top: 3rem;
+        width: 90%;
+        height: 100%;
+    }
+}

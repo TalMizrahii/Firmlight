@@ -1,0 +1,20 @@
+.signup-input-info{
+    bottom: 410%;
+    left: 90%;
+    width: 70%;
+    height: fit-content;
+    font-size: 100% !important;
+    font-weight: bold !important;
+    color: #042c54;
+    position: relative;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .signup-input-info{
+        bottom: 495%;
+        font-size: 90% !important;
+        font-weight: bold !important;
+    }
+}
