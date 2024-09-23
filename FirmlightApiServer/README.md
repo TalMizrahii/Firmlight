@@ -89,4 +89,4 @@ npm run start:dev
 
 ## Authors
 
-* [@Your Name](https://github.com/your-github-profile)
+* [@TalMizrahii](https://github.com/TalMizrahii)
