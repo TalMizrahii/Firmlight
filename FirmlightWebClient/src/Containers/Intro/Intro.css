@@ -1,0 +1,204 @@
+.Intro {
+    background: #FFFFFF;
+    margin: 0;
+    font-family: var(--font-family), serif;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+
+.Intro__content-container {
+    width: 100%;
+    height: 100%;
+}
+
+.Intro__intro-img {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    position: fixed;
+    display: flex;
+    margin: 5% 2% 8% 15%;
+    width: 70%;
+    height: 76%;
+    z-index: 1;
+}
+
+.Intro__logo-img {
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    width: 42%;
+    height: 18%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.Intro__form-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 30%;
+    height: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center; /* Center horizontally */
+    line-height: 4vh; /* Center vertically */
+    display:inline-block !important;
+}
+
+
+
+.Intro__input-container {
+    width: 100%;
+    margin: 0;
+    z-index: 2;
+}
+
+ul{
+    padding: 0.7rem;
+}
+
+.inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.inputGroup input {
+    font-size: 80%;
+    outline: none;
+    border: 1px solid rgb(171, 171, 171);
+    background-color: transparent;
+    border-radius: 4px;
+    width: 70%;
+    margin-top: 9px;
+    padding: 0.8em 0.8em 0.8em 15px;
+}
+
+.inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(112, 112, 112);
+}
+
+.Intro__submit-btn {
+    font-size: 80%;
+    font-weight: bold;
+    color: #042c54;
+    outline: none;
+    cursor: pointer;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border-style: none;
+    width: 70%;
+    margin-top: 9px;
+    margin-right: 0;
+    padding: 0.8em 0.8em 0.8em 15px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 17px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+.Intro__submit-btn:active  {
+    background-color: #ebebeb;
+    color: #2d5f91;
+}
+
+
+
+.Intro__input-container .Intro__disclaimer{
+    margin-top: 4%;
+    font-size: 100%;
+}
+
+.Intro__disclaimer a{
+    color: #042c54;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Intro__disclaimer a:hover{
+    color: #2d5f91;
+}
+
+@media screen and (max-width: 1500px) {
+    .Intro__input-container {
+        width: 90%;
+    }
+    .inputGroup input {
+        font-size: 80%;
+        width: 85%;
+        margin-top: 7px;
+        padding: 0.6em 0.6em 0.6em 15px;
+    }
+
+    .Intro__submit-btn {
+        font-size: 80%;
+        width: 85%;
+        margin-top: 9px;
+        padding: 0.6em 0.6em 0.6em 0.6em;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 17px 20px 0 rgba(0, 0, 0, 0.08);
+    }
+
+    .Intro__input-container .Intro__disclaimer{
+        margin-top: 8%;
+        font-size: 80%;
+    }
+
+    .signup-input-info{
+        bottom: 495%;
+        font-size: 90% !important;
+        font-weight: bold !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+
+
+    .Intro__intro-img {
+        position: fixed;
+        display: flex;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .Intro__logo-img {
+        top:10%;
+        width: 80%;
+        height: 10%;
+        z-index: 2;
+    }
+
+    .Intro__form-container {
+        top: 30%;
+        left: 35%;
+        width: 30%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        line-height: 6vh; /* Center vertically */
+    }
+
+    .Intro__input-container {
+        width: 100%;
+    }
+
+    .inputGroup input {
+        font-size: 100%;
+        width: 200%;
+        margin-top: 12px;
+        padding: 0.6em 0.6em 0.6em 10px;
+    }
+
+    .Intro__submit-btn {
+        font-size: 100%;
+        width: 200%;
+        margin-top: 9px;
+        padding: 0.6em 0.6em 0.6em 0.6em;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 17px 20px 0 rgba(0, 0, 0, 0.08);
+    }
+
+    .Intro__input-container .Intro__disclaimer {
+        margin-top: 35%;
+        font-size: 90%;
+        width: 200%;
+    }
+}

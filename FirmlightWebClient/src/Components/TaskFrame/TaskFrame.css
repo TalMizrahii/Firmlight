@@ -1,0 +1,117 @@
+.task-frame {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+    width: 700px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: #d3d3d3 2px solid;
+    border-radius: 10px;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+#task-frame:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 11px;
+    cursor: pointer;
+}
+
+.task-frame h1 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 20px;
+    font-weight: 650;
+    color: #252C32;
+}
+
+.task-frame__description {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+#tasks-status-btn-progress {
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    width: 5.5rem;
+    font-size: 13px;
+    padding: 6px 1px 6px 7px;
+    cursor: pointer;
+    background-color: #6e5dd0;
+    border: none;
+    color: white;
+}
+
+#tasks-status-btn-successful {
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    width: 5.5rem;
+    font-size: 13px;
+    padding: 6px 1px 6px 7px;
+    cursor: pointer;
+    background-color: forestgreen;
+    border: none;
+    color: white;
+}
+
+#tasks-status-btn-failed {
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    width: 4rem;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.task-frame__Bottom, .task-frame__avatars-creator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    margin-bottom: 0.4rem;
+}
+
+
+.task-frame__avatars {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+}
+
+.task-frame__avatars img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: -6px;
+    border: #FFFFFF 2px solid;
+}
+
+.task-frame__avatars-creator img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 0.3rem;
+    margin-left: 1rem;
+    border: #FFFFFF 2px solid;
+}
+
+.task-frame__avatars-creator p {
+    font-size: 16px;
+    color: #252C32;
+    margin-bottom: 0.2rem;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .task-frame {
+        width: 580px;
+    }
+}

@@ -1,0 +1,59 @@
+.GroupNotification-frame {
+    width: 600px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 1rem;
+
+}
+
+.GroupNotification__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0.5rem 1rem 0;
+}
+
+.GroupNotification__head__status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+
+.GroupNotification__head-close{
+    margin-right: 1rem;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.GroupNotification__head h1 {
+    margin: 0.7rem 1rem 1rem;
+    font-size: 30px;
+    font-weight: 650;
+    color: #252C32;
+}
+
+.GroupNotification__description {
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    overflow: clip;
+}
+
+.GroupNotification__description p {
+    font-size: 16px;
+    color: #252C32;
+    max-width: 500px;
+    margin-bottom: 0.8rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .GroupNotification-frame {
+        width: 500px;
+    }
+}

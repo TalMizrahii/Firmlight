@@ -1,0 +1,76 @@
+#full-notification-center {
+    font-family: var(--font-family);
+}
+.MuiTypography-root-not {
+    margin-left: 1rem !important;
+    font-family: var(--font-family) !important;
+    font-weight: 450 !important;
+}
+
+.css-advny6-MuiPopper-root {
+    inset: 12px auto auto -5px !important;
+    overflow-y: hidden !important;
+}
+
+.notification-stack {
+    height: 400px;
+    width: 320px;
+    padding: 12px;
+    background: #fff9f5;
+    border-radius: 0;
+    overflow-y: auto; /* Use auto to show scrollbar only when needed */
+}
+
+.notification-stack::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome/Safari */
+}
+
+.notification-stack {
+    padding: 5px !important;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.notification-box {
+    background: #ffc87f;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family);
+
+}
+
+.notification-box-upper {
+    color: #3f1e06 ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-family: var(--font-family);
+}
+
+.notification-box-lower {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: var(--font-family);
+}
+
+.notification-button {
+    border-radius: 15px !important;
+    color: white !important;
+    font-family: var(--font-family) !important;
+}
+
+#notification-button-accept {
+    background: #9cb582;
+}
+
+#notification-button-decline {
+    background: #ab1e24;
+}
+
+.No-notifications{
+    font-family: var(--font-family);
+    font-weight: 450;
+    font-size: 1rem;
+    color: #3f1e06;
+    margin: 1rem !important;
+}

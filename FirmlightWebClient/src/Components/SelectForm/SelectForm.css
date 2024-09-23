@@ -1,0 +1,7 @@
+.MuiMenuItem-root {
+    font-weight: normal;
+}
+
+.MuiMenuItem-root.selected {
+    font-weight: bold;
+}

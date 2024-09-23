@@ -1,0 +1,9 @@
+.Groups__container{
+    margin-left: 2rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .Groups__container {
+        margin-left: 1rem;
+    }
+}

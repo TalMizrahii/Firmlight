@@ -1,0 +1,30 @@
+.card{
+    height: fit-content;
+    margin: 5px !important;
+    font-family: var(--font-family) ;
+}
+.card:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.notification-btn{
+    margin-right: 1rem;
+    border: none;
+    border-radius: 15px !important;
+    color: white !important;
+    font-family: var(--font-family) !important;
+}
+
+#notification-btn-accept{
+    background: #9cb582;
+}
+
+#notification-btn-decline{
+    background: #ab1e24;
+}

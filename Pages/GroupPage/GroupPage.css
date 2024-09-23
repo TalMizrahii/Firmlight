@@ -1,0 +1,9 @@
+.group-page__groups{
+    margin: 1rem;
+}
+
+.group-page__content{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+}

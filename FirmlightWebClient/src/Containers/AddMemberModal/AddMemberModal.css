@@ -1,0 +1,12 @@
+.tasks__modal-header{
+    white-space: nowrap;
+    font-size: 35px;
+    color: #333;
+    font-weight: 500;
+    margin-left: 4rem;
+}
+.add-member-tasks__header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}

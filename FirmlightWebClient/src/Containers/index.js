@@ -1,0 +1,11 @@
+export {default as Intro} from './Intro/Intro';
+export {default as Groups} from './Groups/Groups';
+export {default as GroupsAlertsFrame} from './GroupsAlertsFrame/GroupsAlertsFrame';
+export {default as AddGroupModal} from './AddGroupModal/AddGroupModal';
+export {default as GroupHeader} from './GroupHeader/GroupHeader';
+export {default as TasksHeader} from './TasksHeader/TasksHeader';
+export {default as Tasks} from './Tasks/Tasks';
+export {default as NewTaskModal} from './NewTaskModal/NewTaskModal';
+export {default as Footer} from './Footer/Footer';
+export {default as Info} from './Info/Info';
+export {default as Content} from './Content/Content';

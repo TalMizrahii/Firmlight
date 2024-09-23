@@ -1,0 +1,149 @@
+.new-task__container {
+    padding: 2rem 4rem 4rem;
+}
+
+.modal-dialog {
+    margin-top: 5% !important;
+}
+
+.new-task__description {
+    padding: 0 15px;
+}
+
+.css-1mzc8 {
+    width: 98% !important;
+    margin-right: 2px !important;
+}
+
+
+.css-2m9kme-MuiFormControl-root {
+    position: relative;
+    height: 50px !important;
+    width: 370px !important;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+
+.new-tasks__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.new-tasks__modal-header {
+    white-space: nowrap;
+    font-size: 35px;
+    color: #333;
+    font-weight: 500;
+    margin-left: 0;
+}
+
+.new-tasks__modal-close-btn {
+    cursor: pointer;
+}
+
+.modal-dialog {
+    margin-top: 10%;
+}
+
+.new-task__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-task__input-box {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: #d3d3d3 2px solid;
+    border-radius: 10px;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.new-task__input-box:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 11px;
+    cursor: pointer;
+}
+
+.new-task__submit-btn {
+    margin-top: 2rem !important;
+}
+
+.new-task__file-input {
+    height: inherit !important;
+    width: 100% !important;
+    padding: 6px;
+}
+
+.new-task__error-text {
+    margin-top: 3px;
+    margin-left: 0.5rem;
+    margin-bottom: 0;
+    color: red !important;
+}
+
+.new-task__radio {
+    display: flex;
+    width: 370px;
+    margin-top: 1rem;
+}
+
+.error-text {
+    color: red;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.new-task__mean-text-array {
+    display: flex;
+    width: 370px;
+    margin-top: 1rem;
+}
+
+.new-task__mean-file {
+    display: flex;
+    width: 370px;
+    margin-top: 1rem;
+}
+
+/*.MuiBox-root{*/
+/*    width: 370px;*/
+/*}*/
+
+.new-task__mean-container {
+    margin-top: 1rem;
+}
+
+.new-task__error-text {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0;
+    color: red;
+    align-items: center;
+}
+
+legend {
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 1400px) {
+    .modal-dialog {
+        margin-top: 1% !important;
+    }
+
+    .new-task__container {
+        /*padding-top: 1rem;*/
+        /*padding-bottom: 1rem;*/
+    }
+}

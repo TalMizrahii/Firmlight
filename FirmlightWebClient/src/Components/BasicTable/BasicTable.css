@@ -1,0 +1,42 @@
+.css-1ygcj2i-MuiTableCell-root {
+    font-weight: 600 !important;
+    font-family: 'Inter', sans-serif !important;
+    text-align: center !important;
+    padding-right: 4rem !important;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    min-width: 0 !important;
+    width: fit-content !important;
+}
+.css-1azl6jz-MuiTableCell-root {
+    font-weight: 600 !important;
+    font-size: 0.9rem !important;
+    font-family: 'Inter', sans-serif !important;
+    text-align: center !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+    font-family: 'Inter', sans-serif !important;
+    text-align: center !important;
+    padding-right: 4rem !important;
+}
+
+.css-177gid-MuiTableCell-root {
+    font-family: 'Inter', sans-serif !important;
+    text-align: center !important;
+}
+
+.css-quj9j6-MuiTable-root {
+    min-width: 0 !important;
+    width: 850px !important;
+}
+
+@media screen and (max-width: 1500px) {
+    .css-quj9j6-MuiTable-root {
+        min-width: 0 !important;
+        width: 600px !important;
+    }
+}

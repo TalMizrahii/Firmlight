@@ -1,0 +1,10 @@
+.GroupsNotifications{
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .GroupsNotifications {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,155 @@
+.modal-body{
+    padding: 0 !important;
+}
+
+
+.container {
+    top: 5px;
+    left: 400px;
+    /*margin: 1rem auto;*/
+    max-width: 700px;
+    width: 100%;
+    height: fit-content;
+    background: #F4F6FA;
+    padding: 25px;
+    border-radius: 8px;
+    border: solid 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 45px 15px;
+}
+
+.group__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+
+.groups__modal-header {
+    white-space: nowrap;
+    font-size: 35px;
+    color: #333;
+    font-weight: 500;
+    margin-left: 4.5rem;
+}
+
+.group__modal-close-btn{
+    cursor: pointer;
+}
+
+.container .form {
+    margin-top: 30px;
+}
+
+.form .input-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label {
+    color: #333;
+}
+
+.input-box-bottom {
+    flex: 1;
+    display: flex;
+    column-gap: 15px;
+    margin-top: 8px;
+    margin-bottom: 1rem;
+}
+
+
+.form :where(.input-box input, .select-box) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+
+.input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form .column {
+    display: flex;
+    column-gap: 15px;
+}
+
+.add-member-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+
+.select-box select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+}
+
+.form .add-member-btn, .submit-btn {
+    height: 50px;
+    width: 30%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: lightslategrey;
+}
+
+.submit-btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 36.5%;
+}
+
+.add-member-btn{
+    margin-top: 8px;
+}
+
+
+.form button:hover {
+    background: cornflowerblue;
+}
+
+.members-list{
+    list-style-type: none;
+    padding: 0;
+}
+.members-list li{
+    margin-top: 5px;
+}
+li img{
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.create-group__error{
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/*Responsive*/
+@media screen and (max-width: 500px) {
+    .form .column {
+        flex-wrap: wrap;
+    }
+
+    .form :where(.gender-option, .gender) {
+        row-gap: 15px;
+    }
+}
