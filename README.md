@@ -3,34 +3,24 @@
 <a href="https://firmlight.onrender.com/"><img src="https://github.com/TalMizrahii/firmlight-py-client/blob/main/Assets/FullLogo.png" alt="HTML" width="300"></a>
 </p>
 <h2 align="center">
-  Firmlight Server Side
+  Firmlight - Task Distribution System
 </h2>
   <br>
 </h1> 
-<h4 align="center">A powerful NestJS server for managing distributed task processing within user groups.</h4>
+<h4 align="center">Tal Mizrahi's Award-Winning Final Project for Computer Science Bachelor's, Recognized as Outstanding for the Class of 2024</h4>
 
 <p align="center">
-  <a href="#key-features">Key Features</a> •
   <a href="#description">Description</a> •
   <a href="#architecture">Architecture</a> •
-  <a href="#api-endpoints">API Endpoints</a> •
+  <a href="#api">API</a> •
   <a href="#setup">Setup</a> •
   <a href="#technologies">Technologies</a> •
   <a href="#authors">Authors</a>
 </p>
 
-## Key Features
-
-* User Authentication and Management
-* Group Creation and Management
-* Task Distribution
-* Real-time Updates via WebSockets
-* MongoDB Integration for Data Storage
-* Task Metadata and Statistics Tracking
-
 ## Description
 
-The Firmlight NestJS Server is the backbone of our distributed task processing system. It handles user authentication, group management, and task distribution. This server acts as an intermediary between the React client interface and the Python worker clients, ensuring smooth communication and efficient task allocation.
+I developed a distributed task management system designed to efficiently assign tasks within user groups. The system includes a React.js client where users can create and manage groups, and a NestJS backend connected to MongoDB for securely storing user data. A second client, built in Python, will allow users to download and connect to the system with their existing credentials. Tasks will be distributed across group members, with only metadata and task statistics stored on the server, ensuring minimal data storage while maintaining robust task coordination.
 
 ## Architecture
 
@@ -44,6 +34,8 @@ The Firmlight system consists of the following components:
 6. **BullMQ**: Queue system for handling distributed job processing.
 7. **Cron Jobs**: Scheduled tasks for monitoring and maintenance.
 
+
+
 ### Workflow
 
 1. Users register/login via the React client, with credentials stored in MongoDB.
@@ -55,7 +47,7 @@ The Firmlight system consists of the following components:
 7. Only task metadata and statistics are stored on the server to maintain efficiency.
 8. Cron jobs periodically monitor task progress and perform system maintenance.
 
-## API Endpoints
+## API
 
 For detailed API documentation, please refer to our [API Docs](https://firmlight-api.onrender.com/api).
 
