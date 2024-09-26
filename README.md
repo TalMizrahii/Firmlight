@@ -58,17 +58,17 @@ For detailed API documentation, please refer to our [API Docs](https://firmlight
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/firmlight-nestjs-server.git
+git clone https://github.com/your-username/firmlight.git
 
 # Navigate to the project directory
-cd firmlight-nestjs-server
+cd firmlight/FirmlightWorker
 
 # Install dependencies
-npm install
+pip install
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your MongoDB URI and other configuration
+# Sign up using the web interface
+Browse to [https://firmlight.onrender.com](https://firmlight.onrender.com)
+
 
 # Start the server
 npm run start:dev
