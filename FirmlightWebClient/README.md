@@ -1,4 +1,4 @@
-<h1 align="center"> <br> <a href="https://firmlight-api.onrender.com/"><img src="https://github.com/TalMizrahii/firmlight-py-client/blob/main/Assets/FullLogo.png" alt="HTML" width="300"></a> <br> <br> <h2 align="center"> Firmlight React Client </h2> <br> </h1> <h4 align="center"> A React-based web application for managing and distributing tasks within groups of users in the Firmlight distributed system. <p align="center"> <a href="#description">Description</a> • <a href="#features">Features</a> • <a href="#architecture">Architecture</a> • <a href="#authors">Authors</a> </p>
+<h1 align="center"> <br> <a href="https://firmlight.onrender.com/"><img src="https://github.com/TalMizrahii/firmlight-py-client/blob/main/Assets/FullLogo.png" alt="HTML" width="300"></a> <br> <br> <h2 align="center"> Firmlight React Client </h2> <br> </h1> <h4 align="center"> A React-based web application for managing and distributing tasks within groups of users in the Firmlight distributed system. <p align="center"> <a href="#description">Description</a> • <a href="#features">Features</a> • <a href="#architecture">Architecture</a> • <a href="#authors">Authors</a> </p>
 
 
 
