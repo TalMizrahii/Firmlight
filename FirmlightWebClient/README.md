@@ -28,7 +28,7 @@ The Firmlight React Client is part of a larger distributed task system, which co
 * MongoDB: A database for storing user credentials and metadata related to groups and tasks.
 * Python Worker (Client): A downloadable client for users to process tasks assigned by the group in a distributed fashion.
 
-  <img src="https://github.com/user-attachments/assets/f758a72b-871f-4ae0-9987-667294e06b0f" alt="Final_arch drawio" width="500"/>
+  <img src="https://github.com/user-attachments/assets/e07eb55e-98f2-4fbb-9b73-2093fb14ab1b" alt="Final_arch drawio" width="500"/>
 
   
 ## Workflow
