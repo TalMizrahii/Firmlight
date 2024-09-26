@@ -35,13 +35,13 @@ The worker receives task data, processes it according to the task type, and send
 
 This worker client is implemented using Python's asyncio, aiohttp, and socketio libraries for asynchronous processing. The system connects to the Firmlight API and processes tasks using the following workflow:
 
-* Login – The client sends HTTP requests to authenticate via the Firmlight API.
-* WebSocket Connection – After authentication, a WebSocket connection is established to listen for new tasks in real time.
+* Login – The client sends HTTPS requests to authenticate via the Firmlight API.
+* WebSocket Secure Connection – After authentication, a WebSocket connection is established to listen for new tasks in real time using WSS protocol.
 * Task Handling – The worker listens for various task types (e.g., MEAN, CRAWLER, FACTORIZATION), processes them asynchronously, and returns the result to the server.
 * 
 ### Key Functions
 
-* login() – Authenticates the user with their credentials via an HTTP POST request.
+* login() – Authenticates the user with their credentials via an HTTPS POST request.
 * process_task() – Handles task processing based on the task type, which can include mean calculation, web crawling, or number factorization.
 * perform_crawler_task() – Implements a web crawler to fetch links from URLs.
 * perform_factorization_task() – Implements number factorization for a given range.
@@ -55,11 +55,11 @@ The worker can be scaled by specifying the number of threads that process tasks 
 
 The Python worker requires the following dependencies:
 
-- **aiohttp**: For making asynchronous HTTP requests to login and communicate with the backend server.
+- **aiohttp**: For making asynchronous HTTPS requests to login and communicate with the backend server.
 - **python-socketio**: For connecting to the WebSocket server and handling real-time task distribution.
 - **asyncio**: To handle asynchronous task processing, especially useful in non-blocking operations.
 - **maskpass**: Used for secure password input in the terminal.
-- **requests**: For making HTTP requests in the crawler, used to retrieve HTML content from URLs.
+- **requests**: For making HTTPS requests in the crawler, used to retrieve HTML content from URLs.
 - **beautifulsoup4**: For parsing HTML content to extract links from web pages in the crawler.
 - **urllib3**: Handles URL parsing and connection management in the crawler.
 - **urllib.robotparser**: For managing crawling permissions via `robots.txt`.
@@ -70,10 +70,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) instal
 
 ```bash
 # Clone this repository.
-$ git clone https://github.com/TalMizrahii/Firmlight-Worker
+$ git clone https://github.com/TalMizrahii/Firmlight
 
 # Go into the repository.
-$ cd Firmlight-Worker
+$ cd Firmlight/FirmlightWorker
 
 # Install the required dependencies.
 $ pip install -r requirements.txt
