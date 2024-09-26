@@ -34,6 +34,7 @@ The Firmlight system consists of the following components:
 6. **BullMQ**: Queue system for handling distributed job processing.
 7. **Cron Jobs**: Scheduled tasks for monitoring and maintenance.
 
+<img src="https://github.com/user-attachments/assets/425f06fd-9e48-4946-9188-ca81f79cd688" alt="Final_arch drawio" width="500"/>
 
 
 ### Workflow
