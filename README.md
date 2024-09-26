@@ -60,6 +60,7 @@ The Firmlight system consists of the following components:
 For detailed API documentation, please refer to our [API Docs](https://firmlight.onrender.com/api) in the Swagger interface.
 
   <img src="https://github.com/user-attachments/assets/e07eb55e-98f2-4fbb-9b73-2093fb14ab1b" alt="Final_arch drawio" width="500"/>
+  
 ## Setup
 
 ```bash
