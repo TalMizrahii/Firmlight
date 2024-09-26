@@ -73,14 +73,6 @@ Browse to https://firmlight.onrender.com
 Using the same credentials of the web managment page
 ```
 
-## Technologies
-
-- [NestJS](https://nestjs.com/): A progressive Node.js framework for building efficient and scalable server-side applications.
-- [MongoDB](https://www.mongodb.com/): A document-based distributed database.
-- [Redis](https://redis.io/): An open-source, in-memory data structure store used as a database, cache, and message broker.
-- [BullMQ](https://docs.bullmq.io/): A Node.js library that implements a fast and robust queue system based on Redis.
-- [cron-jobs](https://cron-job.org/en/): A simple cron-like job scheduler.
-
 ## Authors
 
 * [@Tal Mizrahi](https://github.com/TalMizrahii)
