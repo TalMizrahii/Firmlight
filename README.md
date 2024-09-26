@@ -14,8 +14,7 @@
   <a href="#architecture">Architecture</a> •
   <a href="#api">API</a> •
   <a href="#setup">Setup</a> •
-  <a href="#technologies">Technologies</a> •
-  <a href="#authors">Authors</a>
+  <a href="#author">Author</a>
 </p>
 
 ## Description
@@ -73,6 +72,6 @@ Browse to https://firmlight.onrender.com
 Using the same credentials of the web managment page
 ```
 
-## Authors
+## Author
 
 * [@Tal Mizrahi](https://github.com/TalMizrahii)
