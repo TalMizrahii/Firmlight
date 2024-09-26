@@ -47,10 +47,14 @@ The Firmlight system consists of the following components:
 6. Task results are sent to the appropriate client (React or Python).
 7. Only task metadata and statistics are stored on the server to maintain efficiency.
 8. Cron jobs periodically monitor task progress and perform system maintenance.
+   
+<img src="https://github.com/user-attachments/assets/bbfce974-b0ff-4a7c-8ae0-523bf14cbb71" alt="Final_arch drawio" width="500"/>
 
 ## API
 
 For detailed API documentation, please refer to our [API Docs](https://firmlight.onrender.com/api) in the Swagger interface.
+
+<img src="https://github.com/user-attachments/assets/bfc04672-e47a-4709-afd3-75b3ab7079b1" alt="Final_arch drawio" width="500"/>
 
 ## Setup
 
