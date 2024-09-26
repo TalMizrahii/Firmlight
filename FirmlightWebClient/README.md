@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+<h1 align="center"> <br> <a href="https://firmlight-api.onrender.com/"><img src="https://github.com/TalMizrahii/firmlight-py-client/blob/main/Assets/FullLogo.png" alt="HTML" width="300"></a> <br> <br> <h2 align="center"> Firmlight React Client </h2> <br> </h1> <h4 align="center"> A React-based web application for managing and distributing tasks within groups of users in the Firmlight distributed system. <p align="center"> <a href="#description">Description</a> • <a href="#features">Features</a> • <a href="#architecture">Architecture</a> • <a href="#authors">Authors</a> </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Description
+The Firmlight React Client serves as the main interface for users to manage groups and distribute tasks. It connects to a NestJS backend to handle authentication, group management, and task distribution. Users can create or join groups, manage group members, and send tasks to group members for distributed processing.
 
-### `npm start`
+This client interacts with the Firmlight Python Worker, which processes the tasks on the worker’s end. The React application itself acts as the control panel, giving users a visual and intuitive way to manage their tasks and group activity.  You can browse to the web managment page [here](https://firmlight.onrender.com).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+* Group Management: Users can create groups, invite other users, and manage memberships.
+* Task Distribution: Tasks can be sent to groups for distributed processing among group members.
+* Real-Time Updates: Leverages WebSockets to provide real-time feedback on task progress and group activities.
+* User Authentication: Users can sign up, log in, and manage their profiles, with data stored securely in MongoDB.
+* Notification System: Users receive notifications when tasks are assigned, completed, or if any group changes occur.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Architecture
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Firmlight React Client is part of a larger distributed task system, which consists of:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* React Frontend: The client-side application where users manage tasks and groups.
+* NestJS Backend: The server-side API that handles user authentication, group management, and communication between the React client and the Python worker.
+* MongoDB: A database for storing user credentials and metadata related to groups and tasks.
+* Python Worker (Client): A downloadable client for users to process tasks assigned by the group in a distributed fashion.
+  
+## Workflow
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. User Authentication
+   - Users register/login via React client
+   - User data stored in MongoDB (managed by NestJS API)
 
-### `npm run eject`
+### 2. Group Creation and Management
+   - Users create/join groups via React client
+   - Group creators can invite other members
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Task Distribution
+   - Tasks created in groups via React client
+   - NestJS API distributes tasks to group members
+   - Python worker client executes tasks
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4. Real-Time Task Monitoring
+   - Users monitor progress via React client
+   - Updates sent over WebSockets for real-time feedback
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 5. Task Results
+   - Completed results sent to NestJS server
+   - Results viewable in worker client
+   - Only metadata/statistics stored in MongoDB
+The Python worker requires the following dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **aiohttp**: For making asynchronous HTTP requests to login and communicate with the backend server.
+- **python-socketio**: For connecting to the WebSocket server and handling real-time task distribution.
+- **asyncio**: To handle asynchronous task processing, especially useful in non-blocking operations.
+- **maskpass**: Used for secure password input in the terminal.
+- **requests**: For making HTTP requests in the crawler, used to retrieve HTML content from URLs.
+- **beautifulsoup4**: For parsing HTML content to extract links from web pages in the crawler.
+- **urllib3**: Handles URL parsing and connection management in the crawler.
+- **urllib.robotparser**: For managing crawling permissions via `robots.txt`.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+* [@Tal Mizrahi](https://github.com/TalMizrahii)
