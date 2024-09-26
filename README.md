@@ -49,7 +49,7 @@ The Firmlight system consists of the following components:
 
 ## API
 
-For detailed API documentation, please refer to our [API Docs](https://firmlight-api.onrender.com/api).
+For detailed API documentation, please refer to our [API Docs](https://firmlight.onrender.com/api).
 
 ## Setup
 
