@@ -16,7 +16,7 @@
   <a href="#api-endpoints">API Endpoints</a> •
   <a href="#setup">Setup</a> •
   <a href="#technologies">Technologies</a> •
-  <a href="#authors">Authors</a>
+  <a href="#author">Author</a>
 </p>
 
 ## Key Features
@@ -27,10 +27,11 @@
 * Real-time Updates via WebSockets
 * MongoDB Integration for Data Storage
 * Task Metadata and Statistics Tracking
+* Task failover mechanisem
 
 ## Description
 
-The Firmlight NestJS Server is the backbone of our distributed task processing system. It handles user authentication, group management, and task distribution. This server acts as an intermediary between the React client interface and the Python worker clients, ensuring smooth communication and efficient task allocation.
+The Firmlight NestJS Server is the backbone of our distributed task processing system, managing user authentication, group coordination, and task distribution. It serves as the intermediary between the React client interface and the Python worker clients, ensuring seamless communication and efficient task allocation. Additionally, the server supports task failover, automatically reassigning tasks if a worker client disconnects or fails during processing, maintaining system reliability and performance.
 
 ## Architecture
 
@@ -87,6 +88,6 @@ npm run start:dev
 - [BullMQ](https://docs.bullmq.io/): A Node.js library that implements a fast and robust queue system based on Redis.
 - [cron-jobs](https://cron-job.org/en/): A simple cron-like job scheduler.
 
-## Authors
+## Author
 
 * [@TalMizrahii](https://github.com/TalMizrahii)
