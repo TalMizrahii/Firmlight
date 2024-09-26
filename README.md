@@ -26,13 +26,14 @@ I developed a distributed task management system designed to efficiently assign 
 
 The Firmlight system consists of the following components:
 
-1. **NestJS Server**: Manages users, groups, and task distribution.
-2. **React Client**: Web interface for users to manage groups and initiate tasks.
-3. **Python Worker Client**: Downloadable client for processing distributed tasks.
-4. **MongoDB**: Database for storing user data, group information, and task metadata.
-5. **Redis**: In-memory data structure store used for caching and as a message broker.
-6. **BullMQ**: Queue system for handling distributed job processing.
-7. **Cron Jobs**: Scheduled tasks for monitoring and maintenance.
+1. **[NestJS Server](https://nestjs.com/)**: Manages users, groups, and task distribution.
+2. **[Reactjs Client](https://react.dev/)**: Web interface for users to manage groups and initiate tasks.
+3. **[Python Worker Client](https://www.python.org/)**: Downloadable client for processing distributed tasks.
+4. **[MongoDB](https://www.mongodb.com/)**: Database for storing user data, group information, and task metadata.
+5. **[Redis](https://redis.io/)**: In-memory data structure store used for caching and as a message broker.
+6. **[BullMQ](https://docs.bullmq.io/)**: Queue system for handling distributed job processing.
+7. **[cron-jobs](https://cron-job.org/en/)**: Scheduled tasks for monitoring and maintenance.
+8. **[JSON Web Tokens](https://jwt.io/)**: An authentication for representing claims securely between The server and clients.
 
 <img src="https://github.com/user-attachments/assets/425f06fd-9e48-4946-9188-ca81f79cd688" alt="Final_arch drawio" width="500"/>
 
