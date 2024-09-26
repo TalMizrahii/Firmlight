@@ -17,7 +17,11 @@
 
 ## Description
 
-I developed a distributed task management system designed to efficiently assign tasks within user groups. The system includes a React.js client where users can create and manage groups, and a NestJS backend connected to MongoDB for securely storing user data. A second client, built in Python, will allow users to download and connect to the system with their existing credentials. Tasks will be distributed across group members, with only metadata and task statistics stored on the server, ensuring minimal data storage while maintaining robust task coordination. You can browse to the web managment page [here](https://firmlight.onrender.com).
+I developed a distributed task management system designed to efficiently assign tasks within user groups. The system includes a React.js client where users can create and manage groups, and a NestJS backend connected to MongoDB for securely storing user data. A second client, built in Python, will allow users to download and connect to the system with their existing credentials. Tasks will be distributed across group members, with only metadata and task statistics stored on the server, ensuring minimal data storage while maintaining robust task coordination. 
+
+<br>
+
+You can browse to the web managment page [here](https://firmlight.onrender.com).
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ZMJRnw3e54A/0.jpg)](https://www.youtube.com/watch?v=ZMJRnw3e54A)
 
