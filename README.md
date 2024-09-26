@@ -58,7 +58,7 @@ For detailed API documentation, please refer to our [API Docs](https://firmlight
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/firmlight.git
+git clone https://github.com/TalMizrahii/firmlight.git
 
 # Navigate to the project directory
 cd firmlight/FirmlightWorker
@@ -67,11 +67,10 @@ cd firmlight/FirmlightWorker
 pip install
 
 # Sign up using the web interface
-Browse to [https://firmlight.onrender.com](https://firmlight.onrender.com)
+Browse to https://firmlight.onrender.com
 
-
-# Start the server
-npm run start:dev
+# Login to the worker and start to work!
+Using the same credentials of the web managment page
 ```
 
 ## Technologies
