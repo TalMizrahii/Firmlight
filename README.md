@@ -26,7 +26,7 @@ I developed a distributed task management system designed to efficiently assign 
 
 The Firmlight system consists of the following components:
 
-1. **NestJS Server** (this component): Manages users, groups, and task distribution.
+1. **NestJS Server**: Manages users, groups, and task distribution.
 2. **React Client**: Web interface for users to manage groups and initiate tasks.
 3. **Python Worker Client**: Downloadable client for processing distributed tasks.
 4. **MongoDB**: Database for storing user data, group information, and task metadata.
