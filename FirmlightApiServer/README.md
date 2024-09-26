@@ -58,16 +58,16 @@ The Firmlight system consists of the following components:
 
 ## API Endpoints
 
-For detailed API documentation, please refer to our [API Docs](https://firmlight-api.onrender.com/api).
+For detailed API documentation, please refer to our [API Docs](https://firmlight.onrender.com/api).
 
 ## Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/firmlight-nestjs-server.git
+git clone https://github.com/TalMizrahii/Firmlight.git
 
 # Navigate to the project directory
-cd firmlight-nestjs-server
+cd firmlight/FirmlightApiServer
 
 # Install dependencies
 npm install
