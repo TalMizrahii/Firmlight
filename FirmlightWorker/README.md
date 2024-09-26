@@ -1,5 +1,3 @@
-
-
 <h1 align="center">
   <br>
   <a href="https://firmlight.onrender.com/"><img src="https://github.com/TalMizrahii/firmlight-py-client/blob/main/Assets/FullLogo.png" alt="HTML" width="300"></a>
@@ -30,6 +28,7 @@ Firmlight Python Worker is a key component of the Firmlight distributed system, 
 
 The worker receives task data, processes it according to the task type, and sends the results back to the server. This system is built to handle tasks efficiently across multiple worker threads, providing scalability for distributed computation.
 
+<img src="https://github.com/user-attachments/assets/9eeacdb4-4e44-48a4-84a8-3618635364d3" alt="Final_arch drawio" width="500"/>
 
 ## Implementation
 
