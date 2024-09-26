@@ -7,7 +7,7 @@
 </h2>
   <br>
 </h1> 
-<h4 align="center">Tal Mizrahi's Award-Winning Final Project for Computer Science Bachelor's, Recognized as Outstanding for the Class of 2024</h4>
+<h4 align="center">Tal Mizrahi's Final Project for Computer Science Bachelor's, Recognized as Outstanding for the Class of 2024</h4>
 
 <p align="center">
   <a href="#description">Description</a> •
