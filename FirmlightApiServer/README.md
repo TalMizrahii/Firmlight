@@ -1,6 +1,6 @@
 <h1 align="center">
 <p align="center">
-<a href="https://firmlight-api.onrender.com/"><img src="https://github.com/TalMizrahii/firmlight-py-client/blob/main/Assets/FullLogo.png" alt="HTML" width="300"></a>
+<a href="https://firmlight.onrender.com/"><img src="https://github.com/TalMizrahii/firmlight-py-client/blob/main/Assets/FullLogo.png" alt="HTML" width="300"></a>
 </p>
 <h2 align="center">
   Firmlight Server Side
