@@ -7,6 +7,7 @@ The Firmlight React Client serves as the main interface for users to manage grou
 
 This client interacts with the Firmlight Python Worker, which processes the tasks on the worker’s end. The React application itself acts as the control panel, giving users a visual and intuitive way to manage their tasks and group activity.  You can browse to the web managment page [here](https://firmlight.onrender.com).
 
+<img src="https://github.com/user-attachments/assets/bbfce974-b0ff-4a7c-8ae0-523bf14cbb71" alt="Final_arch drawio" width="500"/>
 
 ## Features
 
@@ -16,6 +17,7 @@ This client interacts with the Firmlight Python Worker, which processes the task
 * User Authentication: Users can sign up, log in, and manage their profiles, with data stored securely in MongoDB.
 * Notification System: Users receive notifications when tasks are assigned, completed, or if any group changes occur.
 
+<img src="https://github.com/user-attachments/assets/bfc04672-e47a-4709-afd3-75b3ab7079b1" alt="Final_arch drawio" width="500"/> 
 
 ## Architecture
 
@@ -25,6 +27,9 @@ The Firmlight React Client is part of a larger distributed task system, which co
 * NestJS Backend: The server-side API that handles user authentication, group management, and communication between the React client and the Python worker.
 * MongoDB: A database for storing user credentials and metadata related to groups and tasks.
 * Python Worker (Client): A downloadable client for users to process tasks assigned by the group in a distributed fashion.
+
+  <img src="https://github.com/user-attachments/assets/f758a72b-871f-4ae0-9987-667294e06b0f" alt="Final_arch drawio" width="500"/>
+
   
 ## Workflow
 
